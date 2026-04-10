@@ -1,0 +1,16 @@
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualisation
+matplotlib>=3.7.0
+
+# Notebook
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Testing / validation utilities
+pytest>=7.4.0
+
+# Optional: PySpark (for production use in Microsoft Fabric)
+# pyspark>=3.4.0
