@@ -37,39 +37,7 @@ SQL-level migration, to a reporting-ready semantic model with defined KPIs and P
 
 ## Architecture
 
-```
-                    ┌─────────────────┐
-                    │  Oracle Database │
-                    │  (Legacy Source) │
-                    └────────┬────────┘
-                             │ ADF / CSV Extract
-                             ▼
-┌────────────────────────────────────────────────────┐
-│           Microsoft Fabric — OneLake               │
-│                                                    │
-│  BRONZE              SILVER              GOLD      │
-│  ──────              ──────              ────      │
-│  nhs_claims    →   fact_claims     →   trust_kpis  │
-│  providers     →   dim_date            monthly_    │
-│  nhs_trusts    →   dim_trust           trends      │
-│                →   dim_provider        procedure_  │
-│                →   dim_procedure       summary     │
-└──────────────────────────┬─────────────────────────┘
-                           │ Direct Lake / SQL Endpoint
-                           ▼
-                ┌──────────────────────┐
-                │  Power BI Dataset    │
-                │  (Semantic Model)    │
-                │  Measures + KPIs     │
-                └──────────┬───────────┘
-                           │
-               ┌───────────┴──────────┐
-               │   Power BI Reports   │
-               │  Executive Dashboard │
-               │  Trust Performance   │
-               │  Provider Activity   │
-               └──────────────────────┘
-```
+<img width="1286" height="1400" alt="image" src="https://github.com/user-attachments/assets/a25c10f1-0d16-4ee3-bb44-31e548eda8f8" />
 
 ---
 
@@ -270,7 +238,7 @@ near real-time data. This eliminates a whole class of refresh scheduling problem
 
 ## Related Project
 
-**[Project 1: Data Migration Validation Framework](../project1-migration-validation)**  
+**[Data Migration Validation Framework]([../project1-migration-validation](https://github.com/Mohrezasharifi/Data-Migration-Validation-Framework))**  
 The validation framework used to confirm data fidelity across this migration.
 
 ---
