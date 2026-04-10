@@ -1,0 +1,16 @@
+nhs_trust_name,financial_year,total_claims,approved_claims,rejected_claims,total_claimed_gbp,total_approved_gbp,avg_submission_lag,approval_rate_pct,financial_approval_rate_pct,variance_gbp
+Eastern Counties Health Board,FY2022-23,327,167,58,124250.0,58455.72,15.53,51.07,47.05,65794.28
+Eastern Counties Health Board,FY2023-24,364,187,60,134220.0,63759.01,14.89,51.37,47.5,70460.99
+Eastern Counties Health Board,FY2024-25,314,172,50,110360.0,57040.81,15.19,54.78,51.69,53319.19
+Midlands Community NHS Trust,FY2022-23,317,154,46,122785.0,54087.69,14.99,48.58,44.05,68697.31
+Midlands Community NHS Trust,FY2023-24,316,147,56,122350.0,52092.66,15.18,46.52,42.58,70257.34
+Midlands Community NHS Trust,FY2024-25,336,166,58,113895.0,45568.71,15.0,49.4,40.01,68326.29
+North West Health Trust,FY2022-23,297,136,45,109420.0,38423.46,14.83,45.79,35.12,70996.54
+North West Health Trust,FY2023-24,343,177,56,148905.0,61985.06,15.47,51.6,41.63,86919.94
+North West Health Trust,FY2024-25,321,152,48,126865.0,62875.1,14.68,47.35,49.56,63989.9
+Southern Integrated Care Trust,FY2022-23,382,204,65,148695.0,65511.42,15.53,53.4,44.06,83183.58
+Southern Integrated Care Trust,FY2023-24,360,192,52,126485.0,58164.9,15.16,53.33,45.99,68320.1
+Southern Integrated Care Trust,FY2024-25,334,169,58,111515.0,47961.03,15.07,50.6,43.01,63553.97
+Yorkshire Primary Care Network,FY2022-23,328,158,53,120425.0,52117.6,15.43,48.17,43.28,68307.4
+Yorkshire Primary Care Network,FY2023-24,354,186,47,133160.0,61830.47,15.63,52.54,46.43,71329.53
+Yorkshire Primary Care Network,FY2024-25,307,170,44,108225.0,46209.94,15.1,55.37,42.7,62015.06
